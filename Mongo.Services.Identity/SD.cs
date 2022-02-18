@@ -23,6 +23,7 @@ namespace Mongo.Services.Identity
 
             };
 
+
         public static IEnumerable<Client> Clients =>
             new List<Client>
             {
