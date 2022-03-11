@@ -19,72 +19,44 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Account/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblxJbmRleC5jc2h0bWw=
+[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Account/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dnZWRPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Account/Logout/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXRcSW5kZXguY3NodG1s
+[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Account/Logout/LoggedOut.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXRcTG9nZ2VkT3V0LmNzaHRtbA==
+[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Ciba/All.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2liYVxBbGwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Ciba/Consent.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2liYVxDb25zZW50LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Ciba/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2liYVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Ciba/_ScopeListItem.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2liYVxfU2NvcGVMaXN0SXRlbS5jc2h0bWw=
+[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Consent/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc2VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Consent/_ScopeListItem.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc2VudFxfU2NvcGVMaXN0SXRlbS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Device/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Device/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Device/_ScopeListItem.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
+[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Device/UserCodeCapture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFVzZXJDb2RlQ2FwdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Device/UserCodeConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFVzZXJDb2RlQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Diagnostics/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/ExternalLogin/Callback.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXh0ZXJuYWxMb2dpblxDYWxsYmFjay5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/ExternalLogin/Challenge.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXh0ZXJuYWxMb2dpblxDaGFsbGVuZ2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Grants/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhbnRzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Home/Error/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Home/Index.cshtml]
@@ -95,20 +67,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Redirect/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkaXJlY3RcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Shared/Redirect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZGlyZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Shared/_Nav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Shared/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -126,7 +102,3 @@ build_metadata.AdditionalFiles.CssScope =
 [E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Project/Danial/Microservices/Restaurant-Microservice-project/MongoRestaurant/Mongo.Services.Identity/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-0lda9r77tr

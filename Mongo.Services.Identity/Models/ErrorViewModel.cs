@@ -1,4 +1,4 @@
-namespace Mongo.Services.Identity.Models
+﻿namespace Mongo.Services.Identity
 {
     public class ErrorViewModel
     {

@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Mongo.Services.ProductApi.Models.Dto;
 using Mongo.Services.ProductApi.Repository;
 
@@ -9,7 +8,7 @@ namespace Mongo.Services.ProductApi.Controllers
     [ApiController]
     public class ProductAPIController : ControllerBase
     {
-        protected ResponseDto _response ;
+        protected ResponseDto _response;
         private IProductRepository _productRepository;
 
         public ProductAPIController(IProductRepository productRepository)
@@ -32,8 +31,8 @@ namespace Mongo.Services.ProductApi.Controllers
             {
 
                 _response.IsSuccess = false;
-                _response.ErrorMessages 
-                    =  new List<string>() { ex.ToString() };
+                _response.ErrorMessages
+                    = new List<string>() { ex.ToString() };
             }
             return _response;
         }
