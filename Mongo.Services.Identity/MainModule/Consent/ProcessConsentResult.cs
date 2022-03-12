@@ -19,3 +19,5 @@ namespace IdentityServerHost.Quickstart.UI
         public string ValidationError { get; set; }
     }
 }
+
+
