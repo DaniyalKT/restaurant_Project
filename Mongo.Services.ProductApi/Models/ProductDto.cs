@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Mongo.Services.ProductApi.Models.Dto
+﻿namespace Mongo.Services.ProductApi.Models.Dto
 {
     public class ProductDto
     {

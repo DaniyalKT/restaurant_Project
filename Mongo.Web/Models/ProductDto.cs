@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-
-namespace Mongo.Web.Models
+﻿namespace Mongo.Web.Models
 {
     public class ProductDto
     {

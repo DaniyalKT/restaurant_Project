@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Mongo.Web.Models;
+﻿using Mongo.Web.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Mongo.Web.Controllers
 {

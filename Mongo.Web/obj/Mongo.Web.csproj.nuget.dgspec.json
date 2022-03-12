@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Project\\Danial\\Microservices\\Restaurant-Microservice-project\\MongoRestaurant\\Mongo.Web\\Mongo.Web.csproj": {}
+    "D:\\Danial\\restaurant_Project\\Mongo.Web\\Mongo.Web.csproj": {}
   },
   "projects": {
-    "E:\\Project\\Danial\\Microservices\\Restaurant-Microservice-project\\MongoRestaurant\\Mongo.Web\\Mongo.Web.csproj": {
+    "D:\\Danial\\restaurant_Project\\Mongo.Web\\Mongo.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Project\\Danial\\Microservices\\Restaurant-Microservice-project\\MongoRestaurant\\Mongo.Web\\Mongo.Web.csproj",
+        "projectUniqueName": "D:\\Danial\\restaurant_Project\\Mongo.Web\\Mongo.Web.csproj",
         "projectName": "Mongo.Web",
-        "projectPath": "E:\\Project\\Danial\\Microservices\\Restaurant-Microservice-project\\MongoRestaurant\\Mongo.Web\\Mongo.Web.csproj",
-        "packagesPath": "C:\\Users\\Daniel_KT\\.nuget\\packages\\",
-        "outputPath": "E:\\Project\\Danial\\Microservices\\Restaurant-Microservice-project\\MongoRestaurant\\Mongo.Web\\obj\\",
+        "projectPath": "D:\\Danial\\restaurant_Project\\Mongo.Web\\Mongo.Web.csproj",
+        "packagesPath": "C:\\Users\\d.kafaeinejad.SEPASHOLDING.000\\.nuget\\packages\\",
+        "outputPath": "D:\\Danial\\restaurant_Project\\Mongo.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Daniel_KT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\d.kafaeinejad.SEPASHOLDING.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

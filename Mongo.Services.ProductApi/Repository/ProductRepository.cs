@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using Mongo.Services.ProductApi.DbContexts;
 using Mongo.Services.ProductApi.Models;
+using Mongo.Services.ProductApi.DbContexts;
 using Mongo.Services.ProductApi.Models.Dto;
 
 namespace Mongo.Services.ProductApi.Repository
@@ -14,14 +14,14 @@ namespace Mongo.Services.ProductApi.Repository
         public ProductRepository(ApplicationDbContext db, IMapper mapper)
         {
             _db = db;
-            _mapper = mapper;   
+            _mapper = mapper;
 
         }
 
         public async Task<ProductDto> CreateUpdateProduct(ProductDto productDto)
         {
             Product product = _mapper.Map<ProductDto, Product>(productDto);
-            if(product.ProductId > 0)
+            if (product.ProductId > 0)
             {
                 _db.Products.Update(product);
             }
@@ -51,12 +51,12 @@ namespace Mongo.Services.ProductApi.Repository
 
                 return false;
             }
-        
+
         }
 
         public async Task<ProductDto> GetProductById(int productId)
         {
-            Product Product = await _db.Products.Where(x=>x.ProductId == productId).FirstOrDefaultAsync();
+            Product Product = await _db.Products.Where(x => x.ProductId == productId).FirstOrDefaultAsync();
             return _mapper.Map<ProductDto>(Product);
         }
 

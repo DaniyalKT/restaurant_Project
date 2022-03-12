@@ -1,16 +1,16 @@
-using Duende.IdentityServer.Events;
-using Duende.IdentityServer.Extensions;
-using Duende.IdentityServer.Models;
-using Duende.IdentityServer.Services;
-using Duende.IdentityServer.Stores;
 using IdentityModel;
-using Mango.Services.Identity.MainModule.Account;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Mongo.Services.Identity.Models;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Mvc;
+using Duende.IdentityServer.Events;
+using Duende.IdentityServer.Models;
+using Duende.IdentityServer.Stores;
+using Microsoft.AspNetCore.Identity;
+using Duende.IdentityServer.Services;
+using Mongo.Services.Identity.Models;
+using Duende.IdentityServer.Extensions;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication;
+using Mango.Services.Identity.MainModule.Account;
 
 namespace IdentityServerHost.Quickstart.UI
 {
