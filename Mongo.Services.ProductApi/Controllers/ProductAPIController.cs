@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Mongo.Services.ProductApi.Models.Dto;
 using Mongo.Services.ProductApi.Repository;
 
@@ -17,7 +18,7 @@ namespace Mongo.Services.ProductApi.Controllers
             this._response = new ResponseDto();
         }
 
-
+        [Authorize]
         [HttpGet]
         public async Task<object> Get()
         {
@@ -38,6 +39,7 @@ namespace Mongo.Services.ProductApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("{id}")]
         public async Task<object> Get(int id)
         {
@@ -59,6 +61,8 @@ namespace Mongo.Services.ProductApi.Controllers
 
 
         [HttpPost]
+        [Authorize]
+
         public async Task<object> Post([FromBody] ProductDto productDto)
         {
             try
@@ -79,6 +83,8 @@ namespace Mongo.Services.ProductApi.Controllers
 
 
         [HttpPut]
+        [Authorize]
+
         public async Task<object> Put([FromBody] ProductDto productDto)
         {
             try
@@ -99,6 +105,7 @@ namespace Mongo.Services.ProductApi.Controllers
 
 
         [HttpDelete]
+        [Authorize(Roles = "Admin")]
         [Route("{id}")]
         public async Task<object> Delete(int id)
         {
