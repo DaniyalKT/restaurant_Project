@@ -14,7 +14,7 @@ namespace Mongo.Services.Identity
                 new IdentityResources.OpenId(),
                 new IdentityResources.Email(),
                 new IdentityResources.Profile(),
-            };
+            };          
 
         public static IEnumerable<ApiScope> ApiScopes =>
             new List<ApiScope> { new ApiScope("Mango", "Mango Server"),
