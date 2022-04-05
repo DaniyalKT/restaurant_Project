@@ -61,8 +61,15 @@ D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Mongo.Web.runtimeconfig.
 D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Mongo.Web.dll
 D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\ref\Mongo.Web.dll
 D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Mongo.Web.pdb
+D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\Danial\restaurant_Project\Mongo.Web\obj\Debug\net6.0\Mongo.Web.csproj.AssemblyReference.cache
+D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Danial\restaurant_Project\Mongo.Web\bin\Debug\net6.0\System.Security.Permissions.dll
 D:\Danial\restaurant_Project\Mongo.Web\obj\Debug\net6.0\Mongo.Web.GeneratedMSBuildEditorConfig.editorconfig
 D:\Danial\restaurant_Project\Mongo.Web\obj\Debug\net6.0\Mongo.Web.AssemblyInfoInputs.cache
 D:\Danial\restaurant_Project\Mongo.Web\obj\Debug\net6.0\Mongo.Web.AssemblyInfo.cs
@@ -80,3 +87,4 @@ D:\Danial\restaurant_Project\Mongo.Web\obj\Debug\net6.0\Mongo.Web.dll
 D:\Danial\restaurant_Project\Mongo.Web\obj\Debug\net6.0\ref\Mongo.Web.dll
 D:\Danial\restaurant_Project\Mongo.Web\obj\Debug\net6.0\Mongo.Web.pdb
 D:\Danial\restaurant_Project\Mongo.Web\obj\Debug\net6.0\Mongo.Web.genruntimeconfig.cache
+D:\Danial\restaurant_Project\Mongo.Web\obj\Debug\net6.0\Mongo.Web.csproj.AssemblyReference.cache

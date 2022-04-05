@@ -1,6 +1,7 @@
 ﻿using Mongo.Web.Models;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Mongo.Web.Controllers
 {
@@ -28,5 +29,16 @@ namespace Mongo.Web.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [Authorize]
+        public IActionResult Login()
+        {
+            return RedirectToAction(nameof(Index));
+        }
+        public IActionResult Logout()
+        {
+            return SignOut("Coockies", "iodc");
+        }
+
     }
 }

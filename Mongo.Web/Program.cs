@@ -1,63 +1,17 @@
-using Mongo.Web;
-using Mongo.Web.Services;
-using Mongo.Web.Services.IServices;
-
-var builder = WebApplication.CreateBuilder(args);
-
-
-
-
-// Add services to the container.
-
-builder.Services.AddHttpClient<IProductServices, ProductService>();
-SD.ProductAPIBase = builder.Configuration["ServiceUrls:ProductAPI"];
-
-builder.Services.AddScoped<IProductServices, ProductService>();
-
-builder.Services.AddControllersWithViews();
-
-builder.Services.AddAuthentication(option =>
+namespace Mango.Web
 {
-    option.DefaultScheme = "Cookies";
-    option.DefaultChallengeScheme = "oidc";
-}).AddCookie("Coolies", c => c.ExpireTimeSpan = TimeSpan.FromMinutes(10))
-.AddOpenIdConnect("oidc", options =>
-{
-    options.Authority = builder.Configuration["ServicesUrls:IdentityApi"];
-    options.GetClaimsFromUserInfoEndpoint = true;
-    options.ClientId = "mango";
-    options.ClientSecret = "secret";
-    options.ResponseType = "code";
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
 
-    options.TokenValidationParameters.NameClaimType = "name";
-    options.TokenValidationParameters.RoleClaimType = "role";
-    options.Scope.Add("mango");
-    options.SaveTokens = true;
-    //TODO: video 14 
-});
-
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-app.UseAuthentication();
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();
-
-
